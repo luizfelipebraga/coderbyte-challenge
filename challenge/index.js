@@ -12,10 +12,8 @@ CSVtoJSON().fromFile('challenge/input.csv')
         for (let x = 0; x < users.length; x++) {
             const element = users[x];
             console.log(element)
-            if (element.see_all === "no") users[x].see_all = false;
-            if (element.see_all === "yes") users[x].see_all = true;
-
-
+            if (element.see_all === "no" || element.see_all === '' || element.see_all === '0') element.see_all = false;
+            if (element.see_all === "yes") element.see_all = true;
         }
         // users is a JSON array
         // log the JSON array

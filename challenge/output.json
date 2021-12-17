@@ -36,7 +36,7 @@
         "phone Financial Responsible": "",
         "group": "Sala 5, Sala 6",
         "invisible": "no",
-        "see_all": ""
+        "see_all": false
     },
     {
         "fullname": "Jack Littleton",
@@ -49,7 +49,7 @@
         "phone Financial Responsible": "(13) 999921236",
         "group": "",
         "invisible": "",
-        "see_all": "0"
+        "see_all": false
     },
     {
         "fullname": "Kate Goldman",
