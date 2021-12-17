@@ -10,7 +10,7 @@
         "phone Financial Responsible": "(11) 99992-1234",
         "group": "Sala 3",
         "invisible": "1",
-        "see_all": "no"
+        "see_all": false
     },
     {
         "fullname": "John Appleseed",
@@ -23,7 +23,7 @@
         "phone Financial Responsible": "",
         "group": "Sala 6",
         "invisible": "1",
-        "see_all": "no"
+        "see_all": false
     },
     {
         "fullname": "Mary Knight",
@@ -62,6 +62,6 @@
         "phone Financial Responsible": "(14) 99992-1237",
         "group": "Sala 7",
         "invisible": "",
-        "see_all": "yes"
+        "see_all": true
     }
 ]

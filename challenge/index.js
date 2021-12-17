@@ -8,6 +8,15 @@ const CSVtoJSON = require('csvtojson');
 // convert users.csv file to JSON array
 CSVtoJSON().fromFile('challenge/input.csv')
     .then(users => {
+        console.log(users)
+        for (let x = 0; x < users.length; x++) {
+            const element = users[x];
+            console.log(element)
+            if (element.see_all === "no") users[x].see_all = false;
+            if (element.see_all === "yes") users[x].see_all = true;
+
+
+        }
         // users is a JSON array
         // log the JSON array
         fs.writeFileSync('challenge/output.json', JSON.stringify(users, null, 4), (err) => {
