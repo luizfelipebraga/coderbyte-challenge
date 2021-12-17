@@ -1,0 +1,16 @@
+{
+    "name": "classapp-challenge",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node challenge/index.js "
+    },
+    "dependencies": {
+        "csv-parser": "^3.0.0",
+        "csvtojson": "^2.0.10",
+        "google-libphonenumber": "^3.2.25",
+        "lodash": "^4.17.21",
+        "random-words": "^1.1.1"
+    }
+}
